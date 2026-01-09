@@ -16,7 +16,7 @@ let img;
 
 // Load the image.
 function preload() {
-  img = loadImage('/assets/DVD_video_logo.png');
+  img = loadImage('assets/DVD_video_logo.png');
 }
 
 function setup() {
@@ -25,7 +25,7 @@ function setup() {
   vel_x = speed/sqrt(2);
   vel_y = speed/sqrt(2);
   
-  brightness = 90
+  let brightness = 90
   r = random(brightness,255);
   g = random(brightness,255);
   b = random(brightness,255);
